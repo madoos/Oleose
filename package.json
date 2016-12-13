@@ -4,6 +4,7 @@
   "description": "Mobile App One Page Landing Template",
   "main": "index.html",
   "dependencies": {
+    "express": "^4.14.0",
     "grunt": "~0.4.5",
     "grunt-contrib-less": "~1.0.0"
   },
@@ -18,7 +19,7 @@
     "grunt-jslint": "^1.1.12"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "NODE_ENV=production node server.js"
   },
   "author": "Scoop Themes",
   "license": "CC0"
