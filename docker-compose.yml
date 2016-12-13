@@ -1,0 +1,4 @@
+config-probes:
+  image: madoos/sara-translation:develop
+  ports:
+    - 3000:3000
