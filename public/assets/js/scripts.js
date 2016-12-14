@@ -148,20 +148,14 @@ var appMaster = {
         // run Placeholdem on all elements with placeholders
        //  Placeholdem(document.querySelectorAll('[placeholder]'));
     },
-    sendContact: function(){
-        var $sendContact = $('#send-contact');
-    
-        $sendContact.click(function(e){
-
-            var name =  $('#name').val();
-            var email = $('#email').val();
-            var message = $('#message').val();
-            var contact = { email: email, name: name, message: message};
+    onSendContact: function(){
+     
+        $('#send-contact').click(function(e){
+            var contact = { email: $('#email').val(), name: $('#name').val(), message: $('#message').val()};
 
             $.post( "/contact", contact, function( data ) {
                 console.log(data)
             }, "json");
-
         });
 
     }
@@ -185,6 +179,6 @@ $(document).ready(function() {
 
     appMaster.placeHold();
 
-    appMaster.sendContact();
+    appMaster.onSendContact();
 
 });
