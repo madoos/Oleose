@@ -21,7 +21,6 @@ app.get('/', function (req, res) {
 app.post('/contact', function(req, res){
   const contact = req.body;
 
-  console.log(contact, 'constac ***********************')
   mailer.sendToSara(contact, function(err, info){
     if(!err) return res.status(200).send(info);
     return  res.status(404).send(err);

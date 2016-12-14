@@ -146,7 +146,24 @@ var appMaster = {
     },
     placeHold: function(){
         // run Placeholdem on all elements with placeholders
-        Placeholdem(document.querySelectorAll('[placeholder]'));
+       //  Placeholdem(document.querySelectorAll('[placeholder]'));
+    },
+    sendContact: function(){
+        var $sendContact = $('#send-contact');
+    
+        $sendContact.click(function(e){
+
+            var name =  $('#name').val();
+            var email = $('#email').val();
+            var message = $('#message').val();
+            var contact = { email: email, name: name, message: message};
+
+            $.post( "/contact", contact, function( data ) {
+                console.log(data)
+            }, "json");
+
+        });
+
     }
 
 }; // AppMaster
@@ -167,5 +184,7 @@ $(document).ready(function() {
     appMaster.scrollMenu();
 
     appMaster.placeHold();
+
+    appMaster.sendContact();
 
 });

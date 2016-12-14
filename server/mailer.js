@@ -3,14 +3,10 @@
 const config = require('./config');
 const nodemailer = require('nodemailer');
 
-
 const transporter = nodemailer.createTransport({
         service:  config.EMAIL_SERVICE,
-        auth: {
-            user: config.BOOT_EMAIL, // Your email id
-            pass: config.BOOT_PASS // Your password
-        }
-});
+        auth: {user: config.BOOT_EMAIL, pass: config.BOOT_PASS}
+    });
 
 module.exports = {
     sendToSara
