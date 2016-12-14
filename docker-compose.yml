@@ -2,3 +2,8 @@ config-probes:
   image: madoos/sara-translation:develop
   ports:
     - 3000:3000
+  environment:
+    - BOOT_EMAIL
+    - BOOT_PASS
+    - EMAIL_SERVICE `Gmail`
+    - SARA_EMAIL
