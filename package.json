@@ -1,8 +1,8 @@
 {
-  "name": "Oleose",
-  "version": "0.1.0",
-  "description": "Mobile App One Page Landing Template",
-  "main": "index.html",
+  "name": "saras-traslations",
+  "version": "1.0.0",
+  "description": "Saras Landing Page",
+  "main": "server/index.js",
   "dependencies": {
     "express": "^4.14.0",
     "grunt": "~0.4.5",
@@ -19,7 +19,7 @@
     "grunt-jslint": "^1.1.12"
   },
   "scripts": {
-    "start": "NODE_ENV=production node server.js"
+    "start": "NODE_ENV=production node server/index.js"
   },
   "author": "Scoop Themes",
   "license": "CC0"
