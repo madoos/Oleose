@@ -21,8 +21,7 @@ function sendToSara(contact, cb) {
         from: `<${config.BOOT_EMAIL}>`,
         to: `<${config.SARA_EMAIL}>`,
         subject: 'Nuevo  Contacto para tu trabajo de Traductora ser de luz :)',
-        text: 'Hola ser de luz',
-        html: `<p>Name: ${contact.name}</p><p>Email: ${contact.email}</p><p>Message: ${constac.message}</p>`
+        html: `<p>Name: ${contact.name}</p><p>Email: ${contact.email}</p><p>Message: ${contact.message}</p>`
     };
 
     transporter.sendMail(mailOptions, cb);
