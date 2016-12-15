@@ -5,9 +5,9 @@ const path = require('path')
 const express = require('express');
 const swig = require('swig');
 const bodyParser = require('body-parser');
-
 const app = express();
 const mailer = require('./mailer');
+const viewLang = require('./viewTraslator/lang');
 
 // Templates
 app.engine('html', swig.renderFile);
@@ -22,8 +22,9 @@ app.use('/assets', express.static(path.join(__dirname, '../public/assets')));
 app.use('/dist', express.static(path.join(__dirname, '../public/dist')));
 
 // Routers
-app.get('/', function (req, res) {
-  res.render('index', {message: '*************************'});
+app.get('/:lang?', function (req, res) {
+  const lang = req.params.lang || req.acceptsLanguages('es', 'en');
+  res.render('index', viewLang.translate(lang));
 });
 
 app.post('/contact', function(req, res){
