@@ -63,9 +63,9 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#about">Servicios</a></li>
-                            <li><a href="#features">Proyectos destacados</a></li>
-                            <li><a href="#reviews">Tarifas</a></li> 
+                            <li><a href="#about">{{menu[lang][0]}}</a></li>
+                            <li><a href="#features">{{menu[lang][1]}}</a></li>
+                            <li><a href="#reviews">{{menu[lang][2]}}</a></li> 
                            <!-- 
                             <li><a href="#screens">screens</a> 
                             </li>
@@ -73,7 +73,7 @@
                             </li>
                             <li><a class="getApp" href="#getApp">get app</a>
                             </li> -->
-                            <li><a href="#support">Contacto</a></li>
+                            <li><a href="#support">{{menu[lang][3]}}</a></li>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
@@ -115,17 +115,17 @@
                         </div>
 
                         <div class="tp-caption large_white_bold sft" data-x="550" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
-                            Traductora jurado de inglés
+                            {{banner[lang][0]}}
                         </div>
                         <div class="tp-caption large_white_light sfr" data-x="770" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="500" data-start="1400" data-easing="Power4.easeOut">
                            
                         </div>
                         <div class="tp-caption large_white_light sfb" data-x="550" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1500" data-easing="Power4.easeOut">
-                            <spam style="font-size:40px">Más de diez años de experiencia</spam>
+                            <spam style="font-size:40px"> {{banner[lang][1]}}</spam>
                         </div>
 
                         <div class="tp-caption sfb hidden-xs" data-x="550" data-y="center" data-hoffset="0" data-voffset="85" data-speed="1000" data-start="1700" data-easing="Power4.easeOut">
-                            <a href="#about" class="btn btn-primary inverse btn-lg">SERVICIOS</a>
+                            <a href="#about" class="btn btn-primary inverse btn-lg"> {{banner[lang][2]}}</a>
                         </div>
                       <!--  <div class="tp-caption sfr hidden-xs" data-x="730" data-y="center" data-hoffset="0" data-voffset="85" data-speed="1500" data-start="1900" data-easing="Power4.easeOut">
                             <a href="#getApp" class="btn btn-default btn-lg">GET APP</a>
@@ -226,7 +226,7 @@
             <div class="container">
                 
                 <div class="section-heading scrollpoint sp-effect3">
-                    <h1>SERVICIOS</h1>
+                    <h1>{{services[lang]["title"]}}</h1>
                     <div class="divider"></div>
                     <!-- <p>Pisto experiencias</p>-->
                 </div>
@@ -236,28 +236,28 @@
                         <div class="about-item scrollpoint sp-effect2">
                             <i class="fa fa-download fa-2x"></i>
                            <!-- <h3>Easy setup</h3>-->
-                            <p>Traducciones generales, técnicas y juradas inglés-español-inglés</p>
+                            <p>{{services[lang]["description"][0]}}</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-6" >
                         <div class="about-item scrollpoint sp-effect5">
                             <i class="fa fa-bug fa-2x"></i>
                            <!-- <h3>On-the-go</h3> -->
-                            <p>Especialización en ciberseguridad, informática y traducciones jurídicas y jurado.</p>
+                            <p>{{services[lang]["description"][1]}}</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-6" >
                         <div class="about-item scrollpoint sp-effect5">
                             <i class="fa fa-users fa-2x"></i>
                             <!-- <h3>Social connect</h3>-->
-                            <p>Presupuesto en 24 horas Traducciones urgentes.</p>
+                            <p>{{services[lang]["description"][2]}}</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-6" >
                         <div class="about-item scrollpoint sp-effect1">
                             <i class="fa fa-sliders fa-2x"></i>
                            <!-- <h3>Dedicated support</h3> -->
-                            <p>Calidad y cumplimiento de los plazos.</p>
+                            <p>{{services[lang]["description"][3]}}</p>
                         </div>
                     </div>
                 </div>
@@ -267,9 +267,9 @@
         <section id="features">
             <div class="container">
                 <div class="section-heading scrollpoint sp-effect3">
-                    <h1>Features</h1>
+                    <h1>{{features[lang]["title"]}}</h1>
                     <div class="divider"></div>
-                    <p>Learn more about this feature packed App</p>
+                   <!-- <p>Learn more about this feature packed App</p> -->
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-4 scrollpoint sp-effect1">
@@ -278,8 +278,8 @@
                                 <i class="fa fa-cogs fa-2x"></i>
                             </a>
                             <div class="media-body">
-                                <h3 class="media-heading">User Settings</h3>
-                                Lorem ipsum dolor sit amet.
+                                <h3 class="media-heading">{{features[lang]["description"][0]}}</h3>
+                                 <!-- Lorem ipsum dolor sit amet. -->
                             </div>
                         </div>
                         <div class="media text-right feature">
@@ -287,8 +287,8 @@
                                 <i class="fa fa-envelope fa-2x"></i>
                             </a>
                             <div class="media-body">
-                                <h3 class="media-heading">Messages Inbox</h3>
-                                Lorem ipsum dolor sit amet.
+                                <h3 class="media-heading">{{features[lang]["description"][1]}}</h3>
+                                <!-- Lorem ipsum dolor sit amet. -->
                             </div>
                         </div>
                         <div class="media text-right feature">
@@ -296,8 +296,8 @@
                                 <i class="fa fa-users fa-2x"></i>
                             </a>
                             <div class="media-body">
-                                <h3 class="media-heading">Friends List</h3>
-                                Lorem ipsum dolor sit amet.
+                                <h3 class="media-heading">{{features[lang]["description"][2]}}</h3>
+                                <!-- Lorem ipsum dolor sit amet. -->
                             </div>
                         </div>
                         <div class="media text-right feature">
@@ -305,8 +305,8 @@
                                 <i class="fa fa-comments fa-2x"></i>
                             </a>
                             <div class="media-body">
-                                <h3 class="media-heading">Live Chat Messages</h3>
-                                Lorem ipsum dolor sit amet.
+                                <h3 class="media-heading">{{features[lang]["description"][3]}}</h3>
+                                 <!-- Lorem ipsum dolor sit amet. -->
                             </div>
                         </div>
                         <div class="media text-right feature">
@@ -314,8 +314,8 @@
                                 <i class="fa fa-calendar fa-2x"></i>
                             </a>
                             <div class="media-body">
-                                <h3 class="media-heading">Calendar / Planner</h3>
-                                Lorem ipsum dolor sit amet.
+                                <h3 class="media-heading">{{features[lang]["description"][4]}}</h3>
+                                <!-- Lorem ipsum dolor sit amet. -->
                             </div>
                         </div>
                     </div>
@@ -564,9 +564,9 @@
         <section id="support" class="doublediagonal">
             <div class="container">
                 <div class="section-heading scrollpoint sp-effect3">
-                    <h1>Support</h1>
+                    <h1>{{contact[lang]["title"]}}</h1>
                     <div class="divider"></div>
-                    <p>For more info and support, contact us!</p>
+                    <p>{{contact[lang]["description"]}}</p>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
@@ -574,15 +574,15 @@
                             <div class="col-md-8 col-sm-8 scrollpoint sp-effect1">
                                 <form role="form">
                                     <div class="form-group">
-                                        <input type="text" id='name' class="form-control" placeholder="Your name">
+                                        <input type="text" id='name' class="form-control" placeholder= "{{contact[lang]['formName']}}" >
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" id='email' class="form-control" placeholder="Your email">
+                                        <input type="email" id='email' class="form-control" placeholder= "{{contact[lang]['formEmail']}}">
                                     </div>
                                     <div class="form-group">
-                                        <textarea id='message' cols="30" rows="10" class="form-control" placeholder="Your message"></textarea>
+                                        <textarea id='message' cols="30" rows="10" class="form-control" placeholder= "{{contact[lang]['formMessage']}}" ></textarea>
                                     </div>
-                                    <button id="send-contact" class="btn btn-primary btn-lg">Submit</button>
+                                    <button id="send-contact" class="btn btn-primary btn-lg">{{contact[lang]["formSubmit"]}}</button>
                                 </form>
                             </div>
                             <div class="col-md-4 col-sm-4 contact-details scrollpoint sp-effect2">
@@ -591,7 +591,7 @@
                                         <i class="fa fa-map-marker fa-2x"></i>
                                     </a>
                                     <div class="media-body">
-                                        <h4 class="media-heading">4, Some street, California, USA</h4>
+                                        <h4 class="media-heading"> {{contact[lang]["direction"]}}</h4>
                                     </div>
                                 </div>
                                 <div class="media">
@@ -600,8 +600,7 @@
                                     </a>
                                     <div class="media-body">
                                         <h4 class="media-heading">
-                                            <button>enviar</button>
-                                            <a href="mailto:support@oleose.com">support@oleose.com</a>
+                                            <a href="mailto:support@oleose.com">{{contact[lang]["email"]}}</a>
                                         </h4>
                                     </div>
                                 </div>
@@ -610,7 +609,7 @@
                                         <i class="fa fa-phone fa-2x"></i>
                                     </a>
                                     <div class="media-body">
-                                        <h4 class="media-heading">+1 234 567890</h4>
+                                        <h4 class="media-heading">{{contact[lang]["telephone"]}}</h4>
                                     </div>
                                 </div>
                             </div>

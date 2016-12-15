@@ -30,7 +30,7 @@ app.get('/:lang?', function (req, res) {
 app.post('/contact', function(req, res){
   const contact = req.body;
 
-  mailer.sendToSara(contact, function(err, info){
+  mailer.sendToOwner(contact, function(err, info){
     if(!err) return res.status(200).send(info);
     return  res.status(404).send(err);
   });

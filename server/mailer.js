@@ -9,13 +9,13 @@ const transporter = nodemailer.createTransport({
     });
 
 module.exports = {
-    sendToSara
+    sendToOwner
 }
 
-function sendToSara(contact, cb) {
+function sendToOwner(contact, cb) {
     const mailOptions = {
         from: `<${config.BOOT_EMAIL}>`,
-        to: `<${config.SARA_EMAIL}>`,
+        to: `<${config.OWNER_EMAIL}>`,
         subject: 'Nuevo  Contacto para tu trabajo de Traductora ser de luz :)',
         html: `<p>Name: ${contact.name}</p><p>Email: ${contact.email}</p><p>Message: ${contact.message}</p>`
     };
