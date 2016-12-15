@@ -1,11 +1,19 @@
 'use strict';
 
 const config = require('./config');
-const express = require('express');
-const bodyParser = require('body-parser');
 const path = require('path')
+const express = require('express');
+const swig = require('swig');
+const bodyParser = require('body-parser');
+
 const app = express();
 const mailer = require('./mailer');
+
+// Templates
+app.engine('html', swig.renderFile);
+app.set('view engine', 'html');
+app.set('views', path.join(__dirname, '../public/views'));
+app.set('view cache', false);
 
 // Middlewares
 app.use( bodyParser.json() );
@@ -15,7 +23,7 @@ app.use('/dist', express.static(path.join(__dirname, '../public/dist')));
 
 // Routers
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, '../public/index.html'));
+  res.render('index', {message: '*************************'});
 });
 
 app.post('/contact', function(req, res){

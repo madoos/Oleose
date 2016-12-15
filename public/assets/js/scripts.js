@@ -149,7 +149,7 @@ var appMaster = {
        //  Placeholdem(document.querySelectorAll('[placeholder]'));
     },
     onSendContact: function(){
-     
+        
         $('#send-contact').click(function(e){
             var contact = { email: $('#email').val(), name: $('#name').val(), message: $('#message').val()};
 
@@ -157,7 +157,6 @@ var appMaster = {
                 console.log(data)
             }, "json");
         });
-
     }
 
 }; // AppMaster
