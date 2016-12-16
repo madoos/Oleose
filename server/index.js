@@ -7,7 +7,7 @@ const swig = require('swig');
 const bodyParser = require('body-parser');
 const app = express();
 const mailer = require('./mailer');
-const viewLang = require('./viewTraslator/lang');
+const translator = require('./viewTraslator/translator');
 
 // Templates
 app.engine('html', swig.renderFile);
@@ -16,7 +16,7 @@ app.set('views', path.join(__dirname, '../public/views'));
 app.set('view cache', false);
 
 // Middlewares
-app.use( bodyParser.json() );
+app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true})); 
 app.use('/assets', express.static(path.join(__dirname, '../public/assets')));
 app.use('/dist', express.static(path.join(__dirname, '../public/dist')));
@@ -24,7 +24,7 @@ app.use('/dist', express.static(path.join(__dirname, '../public/dist')));
 // Routers
 app.get('/:lang?', function (req, res) {
   const lang = req.params.lang || req.acceptsLanguages('es', 'en');
-  res.render('index', viewLang.translate(lang));
+  res.render('index', translator.translate(lang));
 });
 
 app.post('/contact', function(req, res){
@@ -37,7 +37,7 @@ app.post('/contact', function(req, res){
 
 });
 
-app.listen(3000, function () {
+app.listen(3001, function () {
   console.log('Sara servers running in port 3000!');
   console.log('With config', config);
 });

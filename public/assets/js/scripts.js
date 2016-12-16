@@ -166,7 +166,7 @@ $(document).ready(function() {
 
     appMaster.smoothScroll();
 
-    appMaster.reviewsCarousel();
+    // appMaster.reviewsCarousel();
 
     appMaster.screensCarousel();
 

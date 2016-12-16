@@ -1,6 +1,6 @@
 'use strict';
 
-const webTexts= require('./prompts');
+const webTexts= require('./webTexts');
 
 module.exports = {
     translate
