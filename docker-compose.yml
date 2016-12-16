@@ -1,9 +1,13 @@
-config-probes:
+saras-translations:
   image: madoos/sara-translation:develop
   ports:
     - 3000:3000
   environment:
+    - NODE_ENV
     - BOOT_EMAIL
     - BOOT_PASS
-    - EMAIL_SERVICE `Gmail`
-    - SARA_EMAIL
+    - EMAIL_SERVICE #`Gmail`
+    - OWNER_EMAIL
+    - OWNER_DIRECTION
+    - OWNER_EMAIL
+    - OWNER_TEL
