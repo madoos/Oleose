@@ -32,4 +32,4 @@ var contact = {
 
   * Install grunt
   * Execute in the root  project `grunt`
-  * Edit less files `/public/assets/*.less` 
+  * Edit less files `/public/assets/less/*.less` 
