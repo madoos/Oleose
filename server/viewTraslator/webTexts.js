@@ -3,6 +3,7 @@
 const config = require('../config');
 
 module.exports = {
+    "appName": config.APP_NAME,
     "menu": {
         "es": ["Servicios","Clientes Destacados","Tarifas","Contacto"],
         "en": ["Services","Outstandings Clientes","Fees","Contact"]

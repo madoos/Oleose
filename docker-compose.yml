@@ -4,6 +4,7 @@ saras-translations:
     - 3000:3002
   environment:
     - NODE_ENV=''
+    - APP_NAME=''
     - BOT_EMAIL=''
     - BOT_PASS=''
     - EMAIL_SERVICE= #`Gmail`
