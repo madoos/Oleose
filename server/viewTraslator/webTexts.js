@@ -15,11 +15,29 @@ module.exports = {
     "services": {
         "es":{ 
             "title": "SERVICIOS",
-            "description":["Traducciones generales, técnicas y juradas inglés-español-inglés.","Especialización en ciberseguridad,  informática y traducciones jurídicas.","Presupuesto gratuito en 24 horas Traducciones urgentes","Calidad y cumplimiento de los plazos" ]
+            "description":[
+                "Traducciones generales, técnicas y juradas inglés-español-inglés.",
+                "Especialización en ciberseguridad,  informática y traducciones jurídicas.",
+                'Presentaciones y documentación para empresas',
+                'Contratos',
+                'Certificados académicos',
+                'Documentación de divorcio y adopciones',
+                 "Calidad y cumplimiento de los plazos",
+                 "Presupuesto gratuito en 24 horas Traducciones urgentes"
+                ]
             },
         "en":{
             "title": "SERVICES",
-            "description": ["General, technical, legal and sworn translations English-Spanish-English","Specialization in Cybersecurity, Computer Science and legal translations (also sworn/certified translations)","Free quote within 24 hours Urgent translations","Quality and adherence to deadlines"]
+            "description": [
+                "General, technical, legal and sworn translations English-Spanish-English",
+                "Specialization in Cybersecurity, Computer Science and legal translations (also sworn/certified translations)",
+                'Presentations',
+                'Contracts', 
+                'Internal documents for companies', 
+                'Other translations: Academic Certificates, divorce documentation or adoptions',
+                "Quality and adherence to deadlines",
+                "Free quote within 24 hours Urgent translations"
+                ]
         }
     },
     "features": {
@@ -31,11 +49,7 @@ module.exports = {
                 "Museo de Ciencias Naturales Madrid",
                 "Telefónica. Departamento de Inteligencia en Seguridad",
                 "Ayuntamiento Ibiza Departamento De Turismo",
-                "InnmoTec System, Cybersecurity Intelegence",
-                'Presentaciones y documentación para empresas',
-                'Contratos',
-                'certificados académicos',
-                'Documentación de divorcio y adopciones'
+                "InnmoTec System, Cybersecurity Intelegence"
             ]
            
         },
@@ -47,23 +61,18 @@ module.exports = {
                 "Madrid’s Museum of Natural Sciences",
                 "Department of Security Intelligence at Telefónica",
                 "Tourism Department of Ibiza’s City Council",
-                "InnmoTec System, Cybersecurity Intelegence",
-                'Presentations',
-                'contracts', 
-                'internal documents for companies', 
-                // 'Incita Security, InnoTec, Telefónica and others',
-                'Other translations: Academic Certificates, divorce documentation or adoptions'     
+                "InnmoTec System, Cybersecurity Intelegence",    
             ]
         }
     },
     "fees": {
         "es": {
             "title": "TARIFAS",
-            "description": "Inglés-español-inglés $/EUR 0,08 (la tarifa es negociable y sujeta a cambios. El precio final dependerá del tipo y la dificultad del texto original)"
+            "description": "Inglés-español-inglés $/EUR 0,08 (tarifa orientativa, negociable y sujeta a cambios. El precio final dependerá del tipo y la dificultad del texto original)"
         },
         "en": {
             "title": "FEES",
-            "description": "English-Spanish-English $/EUR 0,08 (The fee is negotiable and subject to change. Final price will depend on the kind and difficulty of the source text)"
+            "description": "English-Spanish-English $/EUR 0,08 (The fee is approximate, negotiable and subject to change. Final price will depend on the kind and difficulty of the source text)"
         }
     },
     "contact": {
