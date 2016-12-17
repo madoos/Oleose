@@ -37,7 +37,7 @@ app.post('/contact', function(req, res){
 
 });
 
-app.listen(3002, function () {
-  console.log('Sara servers running in port 3000!');
+app.listen(3002, function (err) {
+  console.log('Sara servers running in port 3002!');
   console.log('With config', config);
 });
