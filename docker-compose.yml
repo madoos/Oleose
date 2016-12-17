@@ -1,14 +1,14 @@
 saras-translations:
-  image: madoos/sara-translation:develop
+  image: madoos/saras-translations:1.0.0
   ports:
-    - 3000:3000
+    - 3000:3002
   environment:
-    - NODE_ENV
-    - BOT_EMAIL
-    - BOT_PASS
-    - EMAIL_SERVICE #`Gmail`
-    - OWNER_EMAIL
-    - OWNER_DIRECTION
-    - OWNER_EMAIL
-    - OWNER_TEL
-    - OWNER_LINKEDIN
+    - NODE_ENV=''
+    - BOT_EMAIL=''
+    - BOT_PASS=''
+    - EMAIL_SERVICE= #`Gmail`
+    - OWNER_EMAIL=''
+    - OWNER_DIRECTION=''
+    - OWNER_EMAIL=''
+    - OWNER_TEL=''
+    - OWNER_LINKEDIN=''
