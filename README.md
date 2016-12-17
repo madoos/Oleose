@@ -27,7 +27,7 @@ var contact = {
   * OWNER_DIRECTION
   * OWNER_EMAIL
   * OWNER_TEL
-
+  * OWNER_LINKEDIN
 ## Change style
 
   * Install grunt

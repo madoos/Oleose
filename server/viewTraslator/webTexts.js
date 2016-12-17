@@ -78,25 +78,27 @@ module.exports = {
     "contact": {
         "es":{
             "title": "CONTACTO",
-            "description": "bla bla en español",
+            "description": "No dudes en contactar para cualquier duda o presupuesto.",
             "formName":"Nombre:",
             "formEmail": "Correo electronico:",
             "formMessage": "Mensaje:",
             "formSubmit": "Enviar",
             "direction": config.OWNER_DIRECTION,
             "email": config.OWNER_EMAIL,
-            "telephone": config.OWNER_TEL
+            "telephone": config.OWNER_TEL,
+            "linkedin": config.OWNER_LINKEDIN
             },
         "en":{
             "title": "CONTACT",
-            "description": "bla bla en ingles",
+            "description": "Do not hesitate to contact me for further information of free quote",
             "formName":"Name:",
             "formEmail": "Email:",
             "formMessage": "Message:",
             "formSubmit": "Submit",
             "direction": config.OWNER_DIRECTION,
             "email": config.OWNER_EMAIL,
-            "telephone": config.OWNER_TEL
+            "telephone": config.OWNER_TEL,
+            "linkedin": config.OWNER_LINKEDIN
             }
     }
 };

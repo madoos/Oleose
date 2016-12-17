@@ -251,7 +251,7 @@
                     <!-- <div class="col-md-4 col-sm-4" >
                         <img src="assets/img/freeze/iphone-freeze.png" class="img-responsive scrollpoint sp-effect5" alt="">
                     </div> -->
-                    <div class="col-md-6 col-sm-6 scrollpoint sp-effect2">
+                    <div id="feature-2" class="col-md-6 col-sm-6 scrollpoint sp-effect2">
                         <div class="media feature">
                             <span class="pull-left" href="#">
                                 <i class="fa fa-plus fa-2x"></i>
@@ -441,7 +441,7 @@
                             </div>
                             <div class="col-md-4 col-sm-4 contact-details scrollpoint sp-effect2">
                                 <div class="media">
-                                    <a class="pull-left" href="#" >
+                                    <a class="pull-left">
                                         <i class="fa fa-map-marker fa-2x"></i>
                                     </a>
                                     <div class="media-body">
@@ -449,21 +449,30 @@
                                     </div>
                                 </div>
                                 <div class="media">
-                                    <a class="pull-left" href="#" >
+                                     <a class="pull-left" href="mailto:"{{contact[lang]["email"]}}>
                                         <i class="fa fa-envelope fa-2x"></i>
                                     </a>
                                     <div class="media-body">
                                         <h4 class="media-heading">
-                                            <a href="mailto:support@oleose.com">{{contact[lang]["email"]}}</a>
+                                            {{contact[lang]["email"]}}
                                         </h4>
                                     </div>
                                 </div>
                                 <div class="media">
-                                    <a class="pull-left" href="#" >
+                                    <a class="pull-left">
                                         <i class="fa fa-phone fa-2x"></i>
                                     </a>
                                     <div class="media-body">
                                         <h4 class="media-heading">{{contact[lang]["telephone"]}}</h4>
+                                    </div>
+                                </div>
+
+                                 <div class="media">
+                                    <a class="pull-left" href= {{contact[lang]["linkedin"]}} target="_blank"  >
+                                        <i class="fa fa-linkedin-square fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Linkedin</h4>
                                     </div>
                                 </div>
                             </div>
