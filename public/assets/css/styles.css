@@ -1102,21 +1102,3 @@ form .form-control:focus {
   background: #336799;
 }
 
-#lang-es, #lang-en {
-  cursor: pointer;
-}
-
-#banner-test-1{
-  font-size: 4vw;
-}
-
-#banner-test-2{
-  font-size: 3vw;
-} 
-
-
-@media (max-width: 767px){
-  #banner-test-3{
-    margin-top: 10vw!important;
-  }
-}
