@@ -4,8 +4,8 @@ saras-translations:
     - 3000:3000
   environment:
     - NODE_ENV
-    - BOOT_EMAIL
-    - BOOT_PASS
+    - BOT_EMAIL
+    - BOT_PASS
     - EMAIL_SERVICE #`Gmail`
     - OWNER_EMAIL
     - OWNER_DIRECTION

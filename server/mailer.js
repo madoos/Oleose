@@ -5,7 +5,7 @@ const nodemailer = require('nodemailer');
 
 const transporter = nodemailer.createTransport({
         service:  config.EMAIL_SERVICE,
-        auth: {user: config.BOOT_EMAIL, pass: config.BOOT_PASS}
+        auth: {user: config.BOT_EMAIL, pass: config.BOT_PASS}
     });
 
 module.exports = {
@@ -14,7 +14,7 @@ module.exports = {
 
 function sendToOwner(contact, cb) {
     const mailOptions = {
-        from: `<${config.BOOT_EMAIL}>`,
+        from: `<${config.BOT_EMAIL}>`,
         to: `<${config.OWNER_EMAIL}>`,
         subject: 'Nuevo  Contacto para tu trabajo de Traductora ser de luz :)',
         html: `<p>Name: ${contact.name}</p><p>Email: ${contact.email}</p><p>Message: ${contact.message}</p>`

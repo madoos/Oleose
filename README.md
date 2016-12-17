@@ -20,8 +20,8 @@ var contact = {
 ## Enviroment 
 
   * NODE_ENV
-  * BOOT_EMAIL
-  * BOOT_PASS
+  * BOT_EMAIL
+  * BOT_PASS
   * EMAIL_SERVICE #`Gmail`
   * OWNER_EMAIL
   * OWNER_DIRECTION
