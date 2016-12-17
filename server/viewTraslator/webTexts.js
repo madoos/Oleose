@@ -4,8 +4,8 @@ const config = require('../config');
 
 module.exports = {
     "menu": {
-        "es": ["Servicios","Proyectos destacados","Tarifas","Contacto"],
-        "en": ["Services","Outstanding projects","Fees","Contact"]
+        "es": ["Servicios","Clientes Destacados","Tarifas","Contacto"],
+        "en": ["Services","Outstandings Clientes","Fees","Contact"]
     },
     "banner": {
         "es": ["Traductora jurado de inglés", "más de diez años de experiencia", "SERVICIOS"],
@@ -15,7 +15,7 @@ module.exports = {
     "services": {
         "es":{ 
             "title": "SERVICIOS",
-            "description":["Traducciones generales, técnicas y juradas inglés-español-inglés.","Especialización en ciberseguridad,  informática y traducciones jurídicas.","Presupuesto gratuito en 24 horas Traducciones urgentes","calidad y cumplimiento de los plazos" ]
+            "description":["Traducciones generales, técnicas y juradas inglés-español-inglés.","Especialización en ciberseguridad,  informática y traducciones jurídicas.","Presupuesto gratuito en 24 horas Traducciones urgentes","Calidad y cumplimiento de los plazos" ]
             },
         "en":{
             "title": "SERVICES",
@@ -24,31 +24,30 @@ module.exports = {
     },
     "features": {
         "es": {
-            "title": "Proyectos destacados",
+            "title": "CLIENTES DESTACADOS",
             "description":[
                 "CNI Centro Nacional Inteligencia",
                 "CCN Centro Criptológico Nacional",
                 "Museo de Ciencias Naturales Madrid",
-                "Telefónica Departamento de Inteligencia en Seguridad",
-                "Sector Turismo Ayuntamiento Ibiza",
-                "Webs",
-                'Presentaciones',
-                'contratos',
-                'documentación para empresas',
-                // 'Incita Security, InnoTec, Telefónica', 
-                'Otras traduciones para clientes particulares: certificados académicos, expedientes/documentación de divorcio, de adopciones'
+                "Telefónica. Departamento de Inteligencia en Seguridad",
+                "Ayuntamiento Ibiza Departamento De Turismo",
+                "InnmoTec System, Cybersecurity Intelegence",
+                'Presentaciones y documentación para empresas',
+                'Contratos',
+                'certificados académicos',
+                'Documentación de divorcio y adopciones'
             ]
            
         },
         "en": {
-            "title": "Outstanding projects",
+            "title": "OUTSTANDING CUSTOMERS",
             "description":[
                 "CNI Spanish National Intelligence Centre",
                 "CCN Spanish National Cryptologic Centre",
                 "Madrid’s Museum of Natural Sciences",
                 "Department of Security Intelligence at Telefónica",
                 "Tourism Department of Ibiza’s City Council",
-                "webs",
+                "InnmoTec System, Cybersecurity Intelegence",
                 'Presentations',
                 'contracts', 
                 'internal documents for companies', 
