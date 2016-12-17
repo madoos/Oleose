@@ -720,6 +720,21 @@ form textarea.form-control {
   -webkit-animation-delay: -0.16s;
   animation-delay: -0.16s;
 }
+#lang-es,
+#lang-en {
+  cursor: pointer;
+}
+#banner-test-1 {
+  font-size: 4vw;
+}
+#banner-test-2 {
+  font-size: 3vw;
+}
+@media (max-width: 767px) {
+  #banner-test-3 {
+    margin-top: 10vw!important;
+  }
+}
 @-webkit-keyframes bouncedelay {
   0%,
   80%,
@@ -1101,4 +1116,3 @@ form .form-control:focus {
 .pre-loader {
   background: #336799;
 }
-
