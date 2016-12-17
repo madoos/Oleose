@@ -38,6 +38,7 @@ app.post('/contact', function(req, res){
 });
 
 app.listen(3002, function (err) {
-  console.log('Sara servers running in port 3002!');
-  console.log('With config', config);
+
+  if ( err) console.log(err);
+  else  console.log('servers running in port 3002!', 'With config', config);
 });
