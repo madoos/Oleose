@@ -157,6 +157,16 @@ var appMaster = {
                 console.log(data)
             }, "json");
         });
+    },
+    onChangeLang: function(){
+
+        $('#lang-en').click(function(e){
+             window.location = '/en';
+        })
+
+        $('#lang-es').click(function(e){
+             window.location = '/es';
+        })
     }
 
 }; // AppMaster
@@ -179,5 +189,7 @@ $(document).ready(function() {
     appMaster.placeHold();
 
     appMaster.onSendContact();
+
+    appMaster.onChangeLang();
 
 });
