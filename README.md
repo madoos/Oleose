@@ -3,12 +3,22 @@
 ## Api
 
 ## /contact
+
+Send in POST method
  
- * name
- * email
- * message
+ ```javascript
+
+var contact = {
+  name,
+  email,
+  message
+}
+
+```
+
 
 ## Enviroment 
+
   * NODE_ENV
   * BOOT_EMAIL
   * BOOT_PASS
@@ -18,3 +28,8 @@
   * OWNER_EMAIL
   * OWNER_TEL
 
+## Change style
+
+  * Install grunt
+  * Execute in the root  project `grunt`
+  * Edit less files `/public/assets/*.less` 
