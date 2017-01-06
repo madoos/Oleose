@@ -6,11 +6,11 @@ module.exports = {
     "appName": config.APP_NAME,
     "menu": {
         "es": ["Servicios","Clientes Destacados","Tarifas","Contacto"],
-        "en": ["Services","Outstandings Clientes","Fees","Contact"]
+        "en": ["Services","Outstanding Clients","Fees","Contact"]
     },
     "banner": {
-        "es": ["Traductora jurado de inglés", "más de diez años de experiencia", "SERVICIOS"],
-        "en": ["English sworn translator", "more than 10 years of experience", "SERVICES"]
+        "es": ["Traductora jurado de inglés", "nombrada por el Ministerio de Asuntos Exteriores", "más de diez años de experiencia", "SERVICIOS"],
+        "en": ["English sworn/sertified translator","accredited by the Spanish Ministry of Foreign Affairs and Cooperation", "more than 10 years of experience", "SERVICES"]
 
     },
     "services": {
@@ -18,7 +18,7 @@ module.exports = {
             "title": "SERVICIOS",
             "description":[
                 "Traducciones generales, técnicas y juradas inglés-español-inglés.",
-                "Especialización en ciberseguridad,  informática y traducciones jurídicas.",
+                "Especialización en ciberseguridad,  informática y traducciones jurídicas/jurado u oficiales.",
                 'Presentaciones y documentación para empresas',
                 'Contratos',
                 'Certificados académicos',
@@ -30,12 +30,12 @@ module.exports = {
         "en":{
             "title": "SERVICES",
             "description": [
-                "General, technical, legal and sworn translations English-Spanish-English",
-                "Specialization in Cybersecurity, Computer Science and legal translations (also sworn/certified translations)",
-                'Presentations',
-                'Contracts', 
-                'Internal documents for companies', 
-                'Other translations: Academic Certificates, divorce documentation or adoptions',
+                "General, technical, legal and sworn/certified translations English-Spanish-English",
+                "Specialization in Cybersecurity, IT, legal translations and sworn/certified translations",
+                'Presentations and documentation for companies',
+                'Legals contracts', 
+                'Academic certificates', 
+                'Divorce and adoption documentation',
                 "Quality and adherence to deadlines",
                 "Free quote within 24 hours Urgent translations"
                 ]
@@ -91,7 +91,7 @@ module.exports = {
             },
         "en":{
             "title": "CONTACT",
-            "description": "Do not hesitate to contact me for further information of free quote",
+            "description": "Do not hesitate to contact me for further information or free quote",
             "formName":"Name:",
             "formEmail": "Email:",
             "formMessage": "Message:",
