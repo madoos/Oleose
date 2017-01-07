@@ -10,7 +10,7 @@ module.exports = {
     },
     "banner": {
         "es": ["Traductora jurado de inglés", "nombrada por el Ministerio de Asuntos Exteriores", "más de diez años de experiencia", "SERVICIOS"],
-        "en": ["English sworn/sertified translator","accredited by the Spanish Ministry of Foreign Affairs and Cooperation", "more than 10 years of experience", "SERVICES"]
+        "en": ["English sworn/certified translator","accredited by the Spanish Ministry of Foreign Affairs and Cooperation", "more than 10 years of experience", "SERVICES"]
 
     },
     "services": {
@@ -50,7 +50,7 @@ module.exports = {
                 "Museo de Ciencias Naturales Madrid",
                 "Telefónica. Departamento de Inteligencia en Seguridad",
                 "Ayuntamiento Ibiza Departamento De Turismo",
-                "InnmoTec System, Cybersecurity Intelegence"
+                "InnmoTec System, Cybersecurity Intelligence"
             ]
            
         },
@@ -61,8 +61,8 @@ module.exports = {
                 "CCN Spanish National Cryptologic Centre",
                 "Madrid’s Museum of Natural Sciences",
                 "Department of Security Intelligence at Telefónica",
-                "Tourism Department of Ibiza’s City Council",
-                "InnmoTec System, Cybersecurity Intelegence",    
+                "Ibiza’s City Council",
+                "InnmoTec System, Cybersecurity Intelligence",    
             ]
         }
     },
