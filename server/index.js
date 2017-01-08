@@ -31,6 +31,7 @@ app.post('/contact', function(req, res){
   const contact = req.body;
 
   mailer.sendToOwner(contact, function(err, info){
+    console.log('err: ', err, 'info:', info)
     if(!err) return res.status(200).send(info);
     return  res.status(404).send(err);
   });

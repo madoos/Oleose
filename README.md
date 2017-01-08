@@ -46,3 +46,8 @@ var contact = {
 ### image 
 
   madoos/saras-translations:1.0.0
+
+
+  iconos
+  mobile raro
+  banner 
