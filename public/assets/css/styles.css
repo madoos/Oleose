@@ -159,7 +159,7 @@ header .navbar-default.scrolled ul.navbar-nav {
 }
 .section-heading h1 {
   display: inline-block;
-  font-size: 55px;
+  font-size: 8vw;
   font-weight: 300;
   margin-bottom: 0;
 }
@@ -1115,6 +1115,9 @@ form .form-control:focus {
 }
 .pre-loader {
   background: #009688;
+}
+#banner-test-1 {
+    font-size: 3.4vw;
 }
 
 #banner-1{
