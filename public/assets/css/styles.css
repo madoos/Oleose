@@ -731,6 +731,18 @@ form textarea.form-control {
   font-size: 2vw;
 }
 @media (max-width: 767px) {
+
+
+  #banner-test-1 {
+    font-size: 3.4vh!important;
+    position: relative;
+    margin-top: -23vw;
+    margin-left: -45vw;
+  }
+  #banner-1{
+    display: none;
+  }
+
   #banner-test-3 {
     margin-top: 10vw!important;
   }
