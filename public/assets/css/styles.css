@@ -734,6 +734,10 @@ form textarea.form-control {
   #banner-test-3 {
     margin-top: 10vw!important;
   }
+
+  div#feature-2 {
+    margin-top: 30px;
+  }
 }
 @-webkit-keyframes bouncedelay {
   0%,
