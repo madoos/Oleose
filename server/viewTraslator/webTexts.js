@@ -9,8 +9,8 @@ module.exports = {
         "en": ["Services","Outstanding Clients","Fees","Contact"]
     },
     "banner": {
-        "es": ["Traductora jurado de inglés", "nombrada por el Ministerio de Asuntos Exteriores", "más de diez años de experiencia", "SERVICIOS"],
-        "en": ["English sworn/certified translator","accredited by the Spanish Ministry of Foreign Affairs and Cooperation", "more than 10 years of experience", "SERVICES"]
+        "es": ["Traductora jurado de inglés", "Nombrada por el Ministerio de Asuntos Exteriores", "Más de diez años de experiencia", "SERVICIOS"],
+        "en": ["English sworn/certified translator","Accredited by the Spanish Ministry of Foreign Affairs and Cooperation", "More than 10 years of experience", "SERVICES"]
 
     },
     "services": {

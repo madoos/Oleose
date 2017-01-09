@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/js/rs-plugin/css/settings.css">
     <link rel="stylesheet" href="assets/css/flag-icon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="assets/css/styles.css">
 
@@ -112,18 +113,17 @@
                         </div>
 
                         <div class="tp-caption large_white_bold sft" data-x="550" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
-                            <span  id="banner-test-1">{{banner[lang][0]}}</span>
+                            <div  class="col-md-12" id="banner-test-1">{{banner[lang][0]}}</div>
                         </div>
 
                         <div class="tp-caption large_white_light sfb" data-x="550" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1500" data-easing="Power4.easeOut">
-                            <spam  id="banner-test-2"> {{banner[lang][1]}}</spam>
+                            <div class="col-md-12" id="banner-1" >
+                                <div id="banner-first">{{banner[lang][1]}}</div>
+                                <div id="banner-second" >{{banner[lang][2]}}</div>
+                            </div>
                         </div>
 
-                         <div class="tp-caption large_white_light sfb" data-x="550" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1500" data-easing="Power4.easeOut">
-                            <spam> {{banner[lang][2]}}</spam>
-                        </div>
-
-                        <div id="banner-test-3" class="tp-caption sfr" data-x="550" data-y="center" data-hoffset="0" data-voffset="85" data-speed="1000" data-start="1700" data-easing="Power4.easeOut">
+                        <div id="banner-test-button" class="tp-caption sfr" data-x="550" data-y="center" data-hoffset="0" data-voffset="85" data-speed="1000" data-start="1700" data-easing="Power4.easeOut">
                             <a href="#about" class="btn btn-primary inverse btn-lg"> {{banner[lang][3]}}</a>
                         </div>
                     </li>

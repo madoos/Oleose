@@ -1116,3 +1116,18 @@ form .form-control:focus {
 .pre-loader {
   background: #009688;
 }
+
+#banner-1{
+    font-size: 3.3vh;
+    padding-top: 3vh;
+}
+
+div#banner-first {
+    position: relative;
+    margin-top: 1vh;
+}
+
+div#banner-second {
+    position: relative;
+    margin-top: -7vh;
+}
