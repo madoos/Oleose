@@ -22,7 +22,7 @@ app.use('/assets', express.static(path.join(__dirname, '../public/assets')));
 app.use('/dist', express.static(path.join(__dirname, '../public/dist')));
 
 // Routers
-app.get('/google58999bd9099a79f0', function (req, res) {
+app.get('/google58999bd9099a79f0.html', function (req, res) {
   res.render('google'); // google confirmation
 });
 

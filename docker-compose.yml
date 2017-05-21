@@ -7,9 +7,8 @@ saras-translations:
     - APP_NAME=''
     - BOT_EMAIL=''
     - BOT_PASS=''
-    - EMAIL_SERVICE= #`Gmail`
+    - EMAIL_SERVICE='' #`Gmail`
     - OWNER_EMAIL=''
     - OWNER_DIRECTION=''
-    - OWNER_EMAIL=''
     - OWNER_TEL=''
     - OWNER_LINKEDIN=''
