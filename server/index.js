@@ -15,17 +15,22 @@ app.set('view engine', 'html');
 app.set('views', path.join(__dirname, '../public/views'));
 app.set('view cache', false);
 
-// Middlewares
+// Middleware
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true})); 
 app.use('/assets', express.static(path.join(__dirname, '../public/assets')));
 app.use('/dist', express.static(path.join(__dirname, '../public/dist')));
 
 // Routers
+app.get('/google58999bd9099a79f0', function (req, res) {
+  res.render('google'); // google confirmation
+});
+
 app.get('/:lang?', function (req, res) {
   const lang = req.params.lang || req.acceptsLanguages('es', 'en');
   res.render('index', translator.translate(lang));
 });
+
 
 app.post('/contact', function(req, res){
   const contact = req.body;

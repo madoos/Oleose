@@ -23,8 +23,8 @@ module.exports = {
                 'Contratos',
                 'Certificados académicos',
                 'Documentación de divorcio y adopciones',
-                 "Calidad y cumplimiento de los plazos",
-                 "Presupuesto gratuito en 24 horas Traducciones urgentes"
+                 "Traducciones urgentes",
+                 "Presupuesto gratuito en 24 horas"
                 ]
             },
         "en":{
@@ -36,8 +36,8 @@ module.exports = {
                 'Legals contracts', 
                 'Academic certificates', 
                 'Divorce and adoption documentation',
-                "Quality and adherence to deadlines",
-                "Free quote within 24 hours Urgent translations"
+                "Urgent translations",
+                "Free quote within 24 hours"
                 ]
         }
     },
