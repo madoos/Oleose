@@ -1,3 +1,4 @@
 # !bin/bash
 
-docker build -t madoos/saras-translations:1.0.0 .
+TAG=$1
+docker build -t madoos/saras-translations:$TAG .

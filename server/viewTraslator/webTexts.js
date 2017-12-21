@@ -3,7 +3,11 @@
 const config = require('../config');
 
 module.exports = {
-    "appName": config.APP_NAME,
+    "appName":  "Traductor inglés español Technical translation"
+    ,
+    "meta":{
+       "description": "Traductor inglés español, technical translation. Especialización en IT. translations English-Spanish,IT specialization."
+    },
     "menu": {
         "es": ["Servicios","Clientes Destacados","Tarifas","Contacto"],
         "en": ["Services","Outstanding Clients","Fees","Contact"]

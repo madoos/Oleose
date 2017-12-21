@@ -25,6 +25,9 @@ app.use('/dist', express.static(path.join(__dirname, '../public/dist')));
 app.get('/google58999bd9099a79f0.html', function (req, res) {
   res.render('google'); // google confirmation
 });
+app.get('/robots.txt', function (req, res) {
+  res.render('robots'); // google confirmation
+});
 
 app.get('/:lang?', function (req, res) {
   const lang = req.params.lang || req.acceptsLanguages('es', 'en');
